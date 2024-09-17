@@ -1,0 +1,66 @@
+Novidade! Atalhos do teclado … Os atalhos de teclado do Drive foram atualizados para oferecer navegação por letras iniciais
+style.css
+body {
+  color: rgb(255, 126, 20);
+  font-family: "Chakra Petch", system-ui;
+  background: black;
+  margin: 0px;
+}
+
+header {
+  border-bottom: solid 5px red;
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(252, 15, 15);
+  font-family: "Matemasie", sans-serif;
+}
+
+.chamada {
+  background: rgb(9, 6, 17);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+.hashtag {
+  font-family: "sevillana", system-ui;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.categoria-video {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+
+.categoria-video img:hover {
+  opacity: 2;
+  border: 10px solid rgb(255, 238, 0)
+}
+
+.categoria-video img {
+  opacity: 0.5;
+  height: 250px;
+}
+
+.categoria h2 {
+  color: rgb(255, 153, 0);
+}
